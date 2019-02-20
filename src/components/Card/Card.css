@@ -19,8 +19,9 @@ div.item-id {
 	text-align: center;
 }
 
-div.item-name {
-	width: 60%;
+div.item-name,
+div.item-cost {
+	width: 30%;
 	text-align: start;
 }
 

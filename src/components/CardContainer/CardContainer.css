@@ -42,16 +42,16 @@ div.add-item-form i:hover {
 }
 
 input#id-input,
+input#cost-input,
 input#name-input {
 	all: unset;
-	width: 40%;
 	background: white;
 	border: solid 1px black;
 	color: black;
 	font-size: 1.2rem;
 	font-weight: 600;
 	height: 2rem;
-	width: 40%;
+	width: 20%;
 	padding: 0 1rem;
 }
 

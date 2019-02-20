@@ -1,5 +1,5 @@
 const initialListState = {
-	list: [{ id: '1', name: 'uno' }, { id: '2', name: 'dos' }, { id: '3', name: 'tres' }, { id: '4', name: 'cuatro' }]
+	list: [{ id: '1', name: 'uno', cost: 1200 }, { id: '2', name: 'dos', cost: 2100 }, { id: '3', name: 'tres', cost: 1100 }, { id: '4', name: 'cuatro', cost: 200 }]
 };
 
 const listState = (state = initialListState, action) => {

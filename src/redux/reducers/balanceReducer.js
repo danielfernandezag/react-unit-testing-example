@@ -1,5 +1,5 @@
 const initialBalanceState = {
-	balance: 1000
+	balance: 0
 };
 
 const balanceState = (state = initialBalanceState, action) => {
