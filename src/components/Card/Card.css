@@ -1,0 +1,38 @@
+div.card-item {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	text-align: start;
+	border: solid 1px black;
+	margin-bottom: 1px;
+	padding: 1rem 0;
+	cursor: default;
+}
+
+div.card-item.active {
+	border: solid 1px black;
+	background: green;
+}
+
+div.item-id {
+	width: 20%;
+	text-align: center;
+}
+
+div.item-name {
+	width: 60%;
+	text-align: start;
+}
+
+div.item-icon {
+	width: 20%;
+	text-align: center;
+}
+
+div.item-icon i {
+	cursor: pointer;
+}
+
+div.item-icon i:hover {
+	color: #434343;
+}
