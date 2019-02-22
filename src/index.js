@@ -6,4 +6,4 @@ import Main from './components/Main';
 
 const store = configureStore();
 
-ReactDOM.render(<Main store={store} />, document.getElementById('root'));
+export default ReactDOM.render(<Main store={store} />, document.getElementById('root') || document.createElement('div'));
